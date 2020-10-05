@@ -1,6 +1,6 @@
 # projeto-angular-restaurante
 
-### Insttrução de uso
+### Instrução de uso
 
 Instalar dependências 
 ```
