@@ -1,0 +1,85 @@
+.card {
+  margin-bottom: 20px;
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #4946467d;
+  box-shadow: 3px 4px 4px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.4);
+
+  &__com-dados {
+    &__header {
+      position: relative;
+      display: grid;
+      grid-template-columns: 15% 70% 15%;
+
+      &__icon-card {
+        margin: auto 0;
+        border: 1px solid #d30e00;
+        border-radius: 4px;
+        color: #d30e00;
+        width: 25px;
+        height: 25px;
+        padding: 7px;
+      }
+
+      div {
+        min-height: 65px;
+        padding: 0 5px;
+
+        h1 {
+          padding: 0 15%;
+          text-align: center;
+          font-size: 18px;
+          color: #545454;
+          margin-bottom: 0;
+          font-weight: 500;
+        }
+
+        p {
+          padding: 0 15%;
+          font-weight: 400;
+          text-align: center;
+
+          span {
+            font-weight: 100;
+          }
+        }
+      }
+
+      button {
+        border: none;
+        outline: none;
+        background: no-repeat;
+        text-align: right;
+        padding: 0;
+
+        span {
+          font-size: 32px;
+          color: #fff;
+          text-shadow: 0px 1px 2px #150201;
+        }
+      }
+    }
+
+    &__content {
+      width: 90%;
+      padding: 0 20px;
+    }
+  }
+
+  &__sem-dados {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    color: #475bda;
+    padding: 10px;
+
+    p {
+      margin: 0;
+    }
+  }
+}
+
+.card-selecionado {
+  box-shadow: 1px 0px 7px 0px #2b2b2b;
+}

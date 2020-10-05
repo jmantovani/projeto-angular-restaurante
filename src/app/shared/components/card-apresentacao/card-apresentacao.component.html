@@ -1,0 +1,35 @@
+<div *ngIf="contemDados; then cardComDados else cardSemDados">Essa div é ignorada</div>
+
+
+<ng-template #cardComDados>
+  <div class="card" [ngClass]="{'card-selecionado' : card.selecionado}">
+    <div class="card__com-dados">
+
+      <div class="card__com-dados__header">
+        <span class="material-icons card__com-dados__header__icon-card">
+          {{icone}}
+        </span>
+        <div>
+          <h1>{{card.nome}}</h1>
+          <p>Culinária: <span>{{card.culinaria}}</span></p>
+        </div>
+        <button (click)="cardSelecionado(card)">
+          <span class="material-icons icon-favoritos"
+            [ngStyle]="{'color': card.selecionado ? '#d62519' : '' }">star</span></button>
+      </div>
+
+      <div class="card__com-dados__content">
+        <ng-content></ng-content>
+      </div>
+    </div>
+  </div>
+</ng-template>
+
+<ng-template #cardSemDados>
+  <div class="card">
+
+    <div class="card__sem-dados">
+      <p> Informação indisponível :(</p>
+    </div>
+  </div>
+</ng-template>

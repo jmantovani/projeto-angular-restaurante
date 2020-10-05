@@ -1,0 +1,16 @@
+<div class='entrega-container'>
+  <div *ngFor="let card of cards | orderBy:'id'">
+    <app-card-apresentacao [icone]="icone" [card]="card" (emitirCardSelecionado)="onRestauranteSelecionado($event)">
+      <!-- Conteudo ng-content -->
+      <app-telefone-apresentacao [telefone]="card.telefone">
+        <!-- Conteudo ng-content -->
+        <span class="entrega-container__descricao">| Valor de entrega: <span class="valor">{{card.valor_entrega | currency:'BRL':true }}</span> </span>
+        <!--Fim conteudo ng-content -->
+      </app-telefone-apresentacao>
+
+      <app-horario-funcionamento-apresentacao [horarioFuncionamento]="card.horario_operacao">
+      </app-horario-funcionamento-apresentacao>
+      <!--Fim conteudo ng-content -->
+    </app-card-apresentacao>
+  </div>
+</div>

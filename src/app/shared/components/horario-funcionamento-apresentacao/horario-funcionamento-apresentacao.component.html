@@ -1,0 +1,26 @@
+<div class="horario-funcionamento">
+  <h1>Horário de funcionamento</h1>
+  <ul>
+    <li>
+      Domingo: <span appFechado [valor]="horarioFuncionamento.domingo">{{horarioFuncionamento.domingo | fechado}}</span>
+    </li>
+    <li>
+      Segunda: <span appFechado [valor]="horarioFuncionamento.segunda">{{horarioFuncionamento.segunda | fechado}}</span>
+    </li>
+    <li>
+      Terça: <span appFechado [valor]="horarioFuncionamento.terca">{{horarioFuncionamento.terca | fechado}}</span>
+    </li>
+    <li>
+      Quarta: <span appFechado [valor]="horarioFuncionamento.quarta">{{horarioFuncionamento.quarta | fechado}}</span>
+    </li>
+    <li>
+      Quinta: <span appFechado [valor]="horarioFuncionamento.quinta">{{horarioFuncionamento.quinta | fechado}}</span>
+    </li>
+    <li>
+      Sexta: <span appFechado [valor]="horarioFuncionamento.sexta">{{horarioFuncionamento.sexta | fechado}}</span>
+    </li>
+    <li>
+      Sábado: <span appFechado [valor]="horarioFuncionamento.sabado"> {{horarioFuncionamento.sabado | fechado}}</span>
+    </li>
+  </ul>
+</div>

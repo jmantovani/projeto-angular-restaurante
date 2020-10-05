@@ -1,0 +1,15 @@
+<div class='retirada'>
+  <div *ngFor="let card of cards | orderBy:'nome'">
+    <app-card-apresentacao [icone]="icone" [card]="card" (emitirCardSelecionado)="onRestauranteSelecionado($event)">
+      <!-- Conteudo ng-content -->
+      <app-telefone-apresentacao [telefone]="card.telefone"></app-telefone-apresentacao>
+
+      <app-horario-funcionamento-apresentacao [horarioFuncionamento]="card.horario_operacao">
+      </app-horario-funcionamento-apresentacao>
+
+      <app-endereco-apresentacao [endereco]="card.endereco" [regiao]="card.regiao">
+      </app-endereco-apresentacao>
+      <!--Fim conteudo ng-content -->
+    </app-card-apresentacao>
+  </div>
+</div>

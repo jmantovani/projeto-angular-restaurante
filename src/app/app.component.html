@@ -1,0 +1,19 @@
+<section>
+  <header>
+    <h1>Restaurantes</h1>
+    <span class="material-icons">restaurant_menu</span>
+  </header>
+
+  <div class="favoritos" *ngIf="exibirFavorito()">
+    <app-favoritos [favoritos]="favoritos | orderBy:'tipo'"></app-favoritos>
+  </div>
+
+  <nav mat-tab-nav-bar mat-stretch-tabs>
+    <a mat-tab-link *ngFor="let link of navLinks" [routerLink]="link.path" routerLinkActive #rla="routerLinkActive"
+      [active]="rla.isActive">
+      {{link.label}}
+    </a>
+  </nav>
+
+  <router-outlet></router-outlet>
+</section>

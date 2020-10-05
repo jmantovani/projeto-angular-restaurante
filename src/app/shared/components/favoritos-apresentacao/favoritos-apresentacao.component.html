@@ -1,0 +1,36 @@
+<div class="favoritos">
+  <mat-accordion>
+    <mat-expansion-panel>
+      <mat-expansion-panel-header class="favoritos__titulo">
+        <span class="material-icons icon-star">star</span>
+        Favoritos
+      </mat-expansion-panel-header>
+
+      <!-- Lista de restaurantes favoritos -->
+      <mat-accordion>
+        <mat-expansion-panel *ngFor="let favorito of favoritos; let i=index">
+          <mat-expansion-panel-header>
+            {{favorito.nome}}<span class="favoritos__tipo-favorito">&nbsp;| {{favorito.tipo | titlecase}}</span>
+          </mat-expansion-panel-header>
+
+          <p class="favoritos__tipo-culinaria">Culinária: <span>{{favorito.culinaria}}</span></p>
+
+          <app-telefone-apresentacao [telefone]="favorito.telefone">
+
+            <!-- Conteudo ng-content -->
+            <span *ngIf="verificarTipo(favorito.tipo)" class="favoritos__entrega">| Valor de entrega: <span
+                class="valor">{{favorito.valor_entrega | currency:'BRL':true }}</span> </span>
+            <!--Fim conteudo ng-content -->
+          </app-telefone-apresentacao>
+
+          <app-horario-funcionamento-apresentacao [horarioFuncionamento]="favorito.horario_operacao">
+          </app-horario-funcionamento-apresentacao>
+
+          <app-endereco-apresentacao [endereco]="favorito.endereco" [regiao]="favorito.regiao">
+          </app-endereco-apresentacao>
+
+        </mat-expansion-panel>
+      </mat-accordion>
+    </mat-expansion-panel>
+  </mat-accordion>
+</div>

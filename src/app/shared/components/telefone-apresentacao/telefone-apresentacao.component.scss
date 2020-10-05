@@ -1,0 +1,12 @@
+
+
+.telefone {
+  padding: 12px 0;
+  margin: 0;
+  border-top: 1px solid #bcbcbc;
+
+    &__numero {
+      font-weight: 500;
+      padding-right: 5px;
+    }
+}

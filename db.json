@@ -1,0 +1,926 @@
+{
+  "favoritos": [
+    {
+      "id": 1,
+      "nome": "Mission Chinese Food",
+      "regiao": "Manhattan",
+      "endereco": "171 E Broadway, New York, NY 10002",
+      "culinaria": "Asian",
+      "tipo": "entrega",
+      "valor_entrega": 5,
+      "horario_operacao": {
+        "terca": [
+          "5:30 pm",
+          "12:00 am"
+        ],
+        "quarta": [
+          "5:30 pm",
+          "12:00 am"
+        ],
+        "quinta": [
+          "5:30 pm",
+          "12:00 am"
+        ],
+        "sexta": [
+          "5:30 pm",
+          "12:00 am"
+        ],
+        "sabado": [
+          "12:00 pm",
+          "4:00 pm, 5:30 pm",
+          "12:00 am"
+        ],
+        "domingo": [
+          "12:00 pm",
+          "4:00 pm, 5:30 pm",
+          "11:00 pm"
+        ]
+      },
+      "telefone": "88888-8888",
+      "selecionado": true
+    }
+  ],
+  "restaurantes": [
+    {
+      "id": 22,
+      "nome": "Mission Indian Food",
+      "regiao": "Manhattan",
+      "endereco": "500 E Broadway, NY 900",
+      "culinaria": "Indian",
+      "tipo": "entrega",
+      "valor_entrega": 4,
+      "horario_operacao": {
+        "segunda": [
+          "5:30 pm",
+          "11:00 pm"
+        ],
+        "terca": [
+          "5:30 pm",
+          "12:00 am"
+        ],
+        "quarta": [
+          "5:30 pm",
+          "12:00 am"
+        ],
+        "quinta": [
+          "5:30 pm",
+          "12:00 am"
+        ],
+        "sexta": [
+          "5:30 pm",
+          "12:00 am"
+        ],
+        "sabado": [],
+        "domingo": []
+      },
+      "telefone": "99999-9999",
+      "selecionado": false
+    },
+    {
+      "id": 1,
+      "nome": "Mission Chinese Food",
+      "regiao": "Manhattan",
+      "endereco": "171 E Broadway, New York, NY 10002",
+      "culinaria": "Asian",
+      "tipo": "entrega",
+      "valor_entrega": 5,
+      "horario_operacao": {
+        "terca": [
+          "5:30 pm",
+          "12:00 am"
+        ],
+        "quarta": [
+          "5:30 pm",
+          "12:00 am"
+        ],
+        "quinta": [
+          "5:30 pm",
+          "12:00 am"
+        ],
+        "sexta": [
+          "5:30 pm",
+          "12:00 am"
+        ],
+        "sabado": [
+          "12:00 pm",
+          "4:00 pm, 5:30 pm",
+          "12:00 am"
+        ],
+        "domingo": [
+          "12:00 pm",
+          "4:00 pm, 5:30 pm",
+          "11:00 pm"
+        ]
+      },
+      "telefone": "88888-8888",
+      "selecionado": true
+    },
+    {
+      "id": 2,
+      "nome": "Emily",
+      "regiao": "Brooklyn",
+      "endereco": "919 Fulton St, Brooklyn, NY 11238",
+      "culinaria": "Pizza",
+      "tipo": "entrega",
+      "valor_entrega": 10,
+      "horario_operacao": {
+        "segunda": [
+          "5:30 pm",
+          "11:00 pm"
+        ],
+        "terca": [
+          "5:30 pm",
+          "11:00 pm"
+        ],
+        "quarta": [
+          "5:30 pm",
+          "11:00 pm"
+        ],
+        "quinta": [
+          "5:30 pm",
+          "11:00 pm"
+        ],
+        "sexta": [
+          "5:30 pm",
+          "11:00 pm"
+        ],
+        "sabado": [
+          "5:00 pm",
+          "11:30 pm"
+        ],
+        "domingo": null
+      },
+      "telefone": "77777-7777",
+      "selecionado": false
+    },
+    {
+      "id": 3,
+      "nome": "Kang Ho Dong Baekjeong",
+      "regiao": "Manhattan",
+      "endereco": "1 E 32nd St, New York, NY 10016",
+      "culinaria": "Asian",
+      "tipo": "entrega",
+      "valor_entrega": 8,
+      "horario_operacao": {
+        "terca": [
+          "11:30 am",
+          "2:00 am"
+        ],
+        "quarta": [
+          "11:30 am",
+          "2:00 am"
+        ],
+        "quinta": [
+          "11:30 am",
+          "2:00 am"
+        ],
+        "sexta": [
+          "11:30 am",
+          "6:00 am"
+        ],
+        "sabado": [
+          "11:30 am",
+          "6:00 am"
+        ],
+        "domingo": [
+          "11:30 am",
+          "2:00 am"
+        ]
+      },
+      "telefone": "77777-7777",
+      "selecionado": false
+    },
+    {
+      "id": 4,
+      "nome": "Katz's Delicatessen",
+      "regiao": "Manhattan",
+      "endereco": "205 E Houston St, New York, NY 10002",
+      "culinaria": "American",
+      "tipo": "entrega",
+      "valor_entrega": 15,
+      "horario_operacao": {
+        "segunda": [
+          "8:00 am",
+          "10:30 pm"
+        ],
+        "terca": null,
+        "quarta": [
+          "8:00 am",
+          "10:30 pm"
+        ],
+        "quinta": [
+          "8:00 am",
+          "2:30 am"
+        ],
+        "sexta": [
+          "8:00 am",
+          "10:00 pm"
+        ],
+        "sabado": [
+          "12:00 am",
+          "11:59 pm"
+        ],
+        "domingo": [
+          "10:30 pm"
+        ]
+      },
+      "telefone": "66666-6666",
+      "selecionado": false
+    },
+    {
+      "id": 5,
+      "nome": "Roberta's Pizza",
+      "regiao": "Brooklyn",
+      "endereco": "261 Moore St, Brooklyn, NY 11206",
+      "culinaria": "Pizza",
+      "tipo": "entrega",
+      "valor_entrega": 5,
+      "horario_operacao": {
+        "segunda": [
+          "11:00 am",
+          "12:00 am"
+        ],
+        "terca": [
+          "11:00 am",
+          "12:00 am"
+        ],
+        "quarta": [
+          "11:00 am",
+          "12:00 am"
+        ],
+        "quinta": [
+          "11:00 am",
+          "12:00 am"
+        ],
+        "sexta": [
+          "11:00 am",
+          "12:00 am"
+        ],
+        "sabado": [
+          "10:00 am",
+          "12:00 am"
+        ],
+        "domingo": [
+          "10:00 am",
+          "12:00 am"
+        ]
+      },
+      "telefone": "55555-5555",
+      "selecionado": false
+    },
+    {
+      "id": 6,
+      "nome": "Hometown BBQ",
+      "regiao": "Brooklyn",
+      "endereco": "454 Van Brunt St, Brooklyn, NY 11231",
+      "culinaria": "American",
+      "tipo": "entrega",
+      "valor_entrega": 5,
+      "horario_operacao": {
+        "segunda": [],
+        "terca": [
+          "12:00 pm",
+          "10:00 pm"
+        ],
+        "quarta": [
+          "12:00 pm",
+          "10:00 pm"
+        ],
+        "quinta": [
+          "12:00 pm",
+          "10:00 pm"
+        ],
+        "sexta": [
+          "12:00 pm",
+          "11:00 pm"
+        ],
+        "sabado": [
+          "12:00 pm",
+          "11:00 pm"
+        ],
+        "domingo": [
+          "12:00 pm",
+          "9:00 pm"
+        ]
+      },
+      "telefone": "44444-4444",
+      "selecionado": false
+    },
+    {
+      "id": 7,
+      "nome": "Superiority Burger",
+      "regiao": "Manhattan",
+      "endereco": "430 E 9th St, New York, NY 10009",
+      "culinaria": "American",
+      "tipo": "entrega",
+      "valor_entrega": 6,
+      "horario_operacao": {
+        "segunda": [
+          "11:30 am",
+          "10:00 pm"
+        ],
+        "terca": [],
+        "quarta": [
+          "11:30 am",
+          "10:00 pm"
+        ],
+        "quinta": [
+          "11:30 am",
+          "10:00 pm"
+        ],
+        "sexta": [
+          "11:30 am",
+          "10:00 pm"
+        ],
+        "sabado": [
+          "11:30 am",
+          "10:00 pm"
+        ],
+        "domingo": [
+          "11:30 am",
+          "10:00 pm"
+        ]
+      },
+      "telefone": "33333-3333",
+      "selecionado": false
+    },
+    {
+      "id": 8,
+      "nome": "The Dutch",
+      "regiao": "Manhattan",
+      "endereco": "131 Sullivan St, New York, NY 10012",
+      "culinaria": "American",
+      "tipo": "entrega",
+      "valor_entrega": 5,
+      "horario_operacao": {
+        "segunda": [
+          "11:30 am",
+          "3:00 pm, 5:30 pm",
+          "11:00 pm"
+        ],
+        "terca": [
+          "11:30 am",
+          "3:00 pm, 5:30 pm",
+          "11:00 pm"
+        ],
+        "quarta": [
+          "11:30 am",
+          "3:00 pm, 5:30 pm",
+          "11:00 pm"
+        ],
+        "quinta": [
+          "11:30 am",
+          "3:00 pm, 5:30 pm",
+          "11:00 pm"
+        ],
+        "sexta": [
+          "11:30 am",
+          "3:00 pm, 5:30 pm",
+          "11:30 pm"
+        ],
+        "sabado": [
+          "10:00 am",
+          "3:00 pm, 5:30 pm",
+          "11:30 pm"
+        ],
+        "domingo": [
+          "10:00 am",
+          "3:00 pm, 5:30 pm",
+          "11:00 pm"
+        ]
+      },
+      "telefone": "22222-2222",
+      "selecionado": false
+    },
+    {
+      "id": 9,
+      "nome": "Mu Ramen",
+      "regiao": "Queens",
+      "endereco": "1209 Jackson Ave, Queens, NY 11101",
+      "culinaria": "Asian",
+      "tipo": "entrega",
+      "valor_entrega": 8,
+      "horario_operacao": {
+        "segunda": [
+          "5:00 pm",
+          "10:00 pm"
+        ],
+        "terca": [
+          "5:00 pm",
+          "10:00 pm"
+        ],
+        "quarta": [
+          "5:00 pm",
+          "10:00 pm"
+        ],
+        "quinta": [
+          "5:00 pm",
+          "10:00 pm"
+        ],
+        "sexta": [
+          "5:00 pm",
+          "11:00 pm"
+        ],
+        "sabado": [
+          "5:00 pm",
+          "11:00 pm"
+        ],
+        "domingo": [
+          "5:00 pm",
+          "10:00 pm"
+        ]
+      },
+      "telefone": "11111-1111",
+      "selecionado": false
+    },
+    {
+      "id": 10,
+      "nome": "Casa Enrique",
+      "regiao": "Queens",
+      "endereco": "5-48 49th Ave, Queens, NY 11101",
+      "culinaria": "Mexican",
+      "tipo": "entrega",
+      "valor_entrega": 3,
+      "horario_operacao": {
+        "segunda": [
+          "5:00 pm",
+          "12:00 am"
+        ],
+        "terca": [
+          "5:00 pm",
+          "12:00 am"
+        ],
+        "quarta": [
+          "5:00 pm",
+          "12:00 am"
+        ],
+        "quinta": [
+          "5:00 pm",
+          "12:00 am"
+        ],
+        "sexta": [
+          "5:00 pm",
+          "12:00 am"
+        ],
+        "sabado": [
+          "11:00 am",
+          "12:00 am"
+        ],
+        "domingo": [
+          "11:00 am",
+          "12:00 am"
+        ]
+      },
+      "telefone": "00000-0000",
+      "selecionado": false
+    },
+    {
+      "id": 11,
+      "nome": "Mission Indian Food",
+      "regiao": "Manhattan",
+      "endereco": "500 E Broadway, NY 900",
+      "culinaria": "Indian",
+      "tipo": "retirada",
+      "valor_entrega": null,
+      "horario_operacao": {
+        "segunda": [
+          "5:30 pm",
+          "11:00 pm"
+        ],
+        "terca": [
+          "5:30 pm",
+          "12:00 am"
+        ],
+        "quarta": [
+          "5:30 pm",
+          "12:00 am"
+        ],
+        "quinta": [
+          "5:30 pm",
+          "12:00 am"
+        ],
+        "sexta": [
+          "5:30 pm",
+          "12:00 am"
+        ],
+        "sabado": [],
+        "domingo": []
+      },
+      "telefone": "99999-9999",
+      "selecionado": false
+    },
+    {
+      "id": 12,
+      "nome": "Mission Chinese Food",
+      "regiao": "Manhattan",
+      "endereco": "171 E Broadway, New York, NY 10002",
+      "culinaria": "Asian",
+      "tipo": "retirada",
+      "valor_entrega": null,
+      "horario_operacao": {
+        "segunda": [
+          "5:30 pm",
+          "11:00 pm"
+        ],
+        "terca": [
+          "5:30 pm",
+          "12:00 am"
+        ],
+        "quarta": [
+          "5:30 pm",
+          "12:00 am"
+        ],
+        "quinta": [
+          "5:30 pm",
+          "12:00 am"
+        ],
+        "sexta": [
+          "5:30 pm",
+          "12:00 am"
+        ],
+        "sabado": [
+          "12:00 pm",
+          "4:00 pm, 5:30 pm",
+          "12:00 am"
+        ],
+        "domingo": [
+          "12:00 pm",
+          "4:00 pm, 5:30 pm",
+          "11:00 pm"
+        ]
+      },
+      "telefone": "88888-8888",
+      "selecionado": false
+    },
+    {
+      "id": 13,
+      "nome": "Emily",
+      "regiao": "Brooklyn",
+      "endereco": "919 Fulton St, Brooklyn, NY 11238",
+      "culinaria": "Pizza",
+      "tipo": "retirada",
+      "valor_entrega": null,
+      "horario_operacao": {
+        "segunda": [
+          "5:30 pm",
+          "11:00 pm"
+        ],
+        "terca": [
+          "5:30 pm",
+          "11:00 pm"
+        ],
+        "quarta": [
+          "5:30 pm",
+          "11:00 pm"
+        ],
+        "quinta": [
+          "5:30 pm",
+          "11:00 pm"
+        ],
+        "sexta": [
+          "5:30 pm",
+          "11:00 pm"
+        ],
+        "sabado": [
+          "5:00 pm",
+          "11:30 pm"
+        ],
+        "domingo": [
+          "12:00 pm",
+          "3:00 pm, 5:00 pm",
+          "11:00 pm"
+        ]
+      },
+      "telefone": "77777-7777",
+      "selecionado": false
+    },
+    {
+      "id": 14,
+      "nome": "Kang Ho Dong Baekjeong",
+      "regiao": "Manhattan",
+      "endereco": "1 E 32nd St, New York, NY 10016",
+      "culinaria": "Asian",
+      "tipo": "retirada",
+      "valor_entrega": null,
+      "horario_operacao": {
+        "segunda": [
+          "11:30 am",
+          "2:00 am"
+        ],
+        "terca": [
+          "11:30 am",
+          "2:00 am"
+        ],
+        "quarta": [
+          "11:30 am",
+          "2:00 am"
+        ],
+        "quinta": [
+          "11:30 am",
+          "2:00 am"
+        ],
+        "sexta": [
+          "11:30 am",
+          "6:00 am"
+        ],
+        "sabado": [
+          "11:30 am",
+          "6:00 am"
+        ],
+        "domingo": [
+          "11:30 am",
+          "2:00 am"
+        ]
+      },
+      "telefone": "77777-7777",
+      "selecionado": false
+    },
+    {
+      "id": 15,
+      "nome": "Katz's Delicatessen",
+      "regiao": "Manhattan",
+      "endereco": "205 E Houston St, New York, NY 10002",
+      "culinaria": "American",
+      "tipo": "retirada",
+      "valor_entrega": null,
+      "horario_operacao": {
+        "segunda": [
+          "8:00 am",
+          "10:30 pm"
+        ],
+        "terca": [
+          "8:00 am",
+          "10:30 pm"
+        ],
+        "quarta": [
+          "8:00 am",
+          "10:30 pm"
+        ],
+        "quinta": [
+          "8:00 am",
+          "2:30 am"
+        ],
+        "sexta": [
+          "8:00 am",
+          "10:00 pm"
+        ],
+        "sabado": [
+          "12:00 am",
+          "11:59 pm"
+        ],
+        "domingo": [
+          "10:30 pm"
+        ]
+      },
+      "telefone": "66666-6666",
+      "selecionado": false
+    },
+    {
+      "id": 16,
+      "nome": "Roberta's Pizza",
+      "regiao": "Brooklyn",
+      "endereco": "261 Moore St, Brooklyn, NY 11206",
+      "culinaria": "Pizza",
+      "tipo": "retirada",
+      "valor_entrega": null,
+      "horario_operacao": {
+        "segunda": [
+          "11:00 am",
+          "12:00 am"
+        ],
+        "terca": [
+          "11:00 am",
+          "12:00 am"
+        ],
+        "quarta": [
+          "11:00 am",
+          "12:00 am"
+        ],
+        "quinta": [
+          "11:00 am",
+          "12:00 am"
+        ],
+        "sexta": [
+          "11:00 am",
+          "12:00 am"
+        ],
+        "sabado": [
+          "10:00 am",
+          "12:00 am"
+        ],
+        "domingo": [
+          "10:00 am",
+          "12:00 am"
+        ]
+      },
+      "telefone": "55555-5555",
+      "selecionado": false
+    },
+    {
+      "id": 17,
+      "nome": "Hometown BBQ",
+      "regiao": "Brooklyn",
+      "endereco": "454 Van Brunt St, Brooklyn, NY 11231",
+      "culinaria": "American",
+      "tipo": "retirada",
+      "valor_entrega": null,
+      "horario_operacao": {
+        "segunda": [],
+        "terca": [
+          "12:00 pm",
+          "10:00 pm"
+        ],
+        "quarta": [
+          "12:00 pm",
+          "10:00 pm"
+        ],
+        "quinta": [
+          "12:00 pm",
+          "10:00 pm"
+        ],
+        "sexta": [
+          "12:00 pm",
+          "11:00 pm"
+        ],
+        "sabado": [
+          "12:00 pm",
+          "11:00 pm"
+        ],
+        "domingo": [
+          "12:00 pm",
+          "9:00 pm"
+        ]
+      },
+      "telefone": "44444-4444",
+      "selecionado": false
+    },
+    {
+      "id": 18,
+      "nome": "Superiority Burger",
+      "regiao": "Manhattan",
+      "endereco": "430 E 9th St, New York, NY 10009",
+      "culinaria": "American",
+      "tipo": "retirada",
+      "valor_entrega": null,
+      "horario_operacao": {
+        "segunda": [
+          "11:30 am",
+          "10:00 pm"
+        ],
+        "terca": null,
+        "quarta": [
+          "11:30 am",
+          "10:00 pm"
+        ],
+        "quinta": [
+          "11:30 am",
+          "10:00 pm"
+        ],
+        "sexta": [
+          "11:30 am",
+          "10:00 pm"
+        ],
+        "sabado": [
+          "11:30 am",
+          "10:00 pm"
+        ],
+        "domingo": [
+          "11:30 am",
+          "10:00 pm"
+        ]
+      },
+      "telefone": "33333-3333",
+      "selecionado": false
+    },
+    {
+      "id": 19,
+      "nome": "The Dutch",
+      "regiao": "Manhattan",
+      "endereco": "131 Sullivan St, New York, NY 10012",
+      "culinaria": "American",
+      "tipo": "retirada",
+      "valor_entrega": null,
+      "horario_operacao": {
+        "segunda": [
+          "11:30 am",
+          "3:00 pm, 5:30 pm",
+          "11:00 pm"
+        ],
+        "terca": [
+          "11:30 am",
+          "3:00 pm, 5:30 pm",
+          "11:00 pm"
+        ],
+        "quarta": [
+          "11:30 am",
+          "3:00 pm, 5:30 pm",
+          "11:00 pm"
+        ],
+        "quinta": [
+          "11:30 am",
+          "3:00 pm, 5:30 pm",
+          "11:00 pm"
+        ],
+        "sexta": [
+          "11:30 am",
+          "3:00 pm, 5:30 pm",
+          "11:30 pm"
+        ],
+        "sabado": [
+          "10:00 am",
+          "3:00 pm, 5:30 pm",
+          "11:30 pm"
+        ],
+        "domingo": [
+          "10:00 am",
+          "3:00 pm, 5:30 pm",
+          "11:00 pm"
+        ]
+      },
+      "telefone": "22222-2222",
+      "selecionado": false
+    },
+    {
+      "id": 20,
+      "nome": "Mu Ramen",
+      "regiao": "Queens",
+      "endereco": "1209 Jackson Ave, Queens, NY 11101",
+      "culinaria": "Asian",
+      "tipo": "retirada",
+      "valor_entrega": null,
+      "horario_operacao": {
+        "segunda": [
+          "5:00 pm",
+          "10:00 pm"
+        ],
+        "terca": [
+          "5:00 pm",
+          "10:00 pm"
+        ],
+        "quarta": [
+          "5:00 pm",
+          "10:00 pm"
+        ],
+        "quinta": [
+          "5:00 pm",
+          "10:00 pm"
+        ],
+        "sexta": [
+          "5:00 pm",
+          "11:00 pm"
+        ],
+        "sabado": [
+          "5:00 pm",
+          "11:00 pm"
+        ],
+        "domingo": [
+          "5:00 pm",
+          "10:00 pm"
+        ]
+      },
+      "telefone": "11111-1111",
+      "selecionado": false
+    },
+    {
+      "id": 21,
+      "nome": "Casa Enrique",
+      "regiao": "Queens",
+      "endereco": "5-48 49th Ave, Queens, NY 11101",
+      "culinaria": "Mexican",
+      "tipo": "retirada",
+      "valor_entrega": null,
+      "horario_operacao": {
+        "segunda": [
+          "5:00 pm",
+          "12:00 am"
+        ],
+        "terca": [
+          "5:00 pm",
+          "12:00 am"
+        ],
+        "quarta": [
+          "5:00 pm",
+          "12:00 am"
+        ],
+        "quinta": [
+          "5:00 pm",
+          "12:00 am"
+        ],
+        "sexta": [
+          "5:00 pm",
+          "12:00 am"
+        ],
+        "sabado": [
+          "11:00 am",
+          "12:00 am"
+        ],
+        "domingo": [
+          "11:00 am",
+          "12:00 am"
+        ]
+      },
+      "telefone": "00000-0000",
+      "selecionado": false
+    }
+  ]
+}
