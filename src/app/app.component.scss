@@ -11,20 +11,31 @@ section {
     justify-content: center;
     display: flex;
     align-items: center;
-    color: #ff584c;
     border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 
     h1 {
       margin: 0;
+      color: #00a000;
+      font-weight: 300;
     }
 
-    span {
-      padding: 0 10px;
+    a {
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-origin: border-box;
+      background-position: center;
+      width: 20%;
+      height: 100%;
+      background-image: url('../assets/images/brocolis_zen.jpg');
     }
+
   }
 
   .favoritos{
+    top: 0;
+    z-index: 2;
+    position: sticky;
     padding-bottom: 10px;
+    position: -webkit-sticky;
   }
-
 }
