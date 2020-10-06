@@ -3,7 +3,7 @@
     <mat-expansion-panel>
       <mat-expansion-panel-header class="favoritos__titulo">
         <span class="material-icons icon-star">star</span>
-        Favoritos
+        {{'TITULO.FAVORITOS' | translate}}
       </mat-expansion-panel-header>
 
       <!-- Lista de restaurantes favoritos -->
@@ -13,12 +13,12 @@
             {{favorito.nome}}<span class="favoritos__tipo-favorito">&nbsp;| {{favorito.tipo | titlecase}}</span>
           </mat-expansion-panel-header>
 
-          <p class="favoritos__tipo-culinaria">Culinária: <span>{{favorito.culinaria}}</span></p>
+          <p class="favoritos__tipo-culinaria">{{'TEXTO.CULINARIA' | translate}}<span>{{favorito.culinaria}}</span></p>
 
           <app-telefone-apresentacao [telefone]="favorito.telefone">
 
             <!-- Conteudo ng-content -->
-            <span *ngIf="verificarTipo(favorito.tipo)" class="favoritos__entrega">| Valor de entrega: <span
+            <span *ngIf="verificarTipo(favorito.tipo)" class="favoritos__entrega">|{{'TEXTO.VALOR_ENTREGA' | translate}}<span
                 class="valor">{{favorito.valor_entrega | currency:'BRL':true }}</span> </span>
             <!--Fim conteudo ng-content -->
           </app-telefone-apresentacao>

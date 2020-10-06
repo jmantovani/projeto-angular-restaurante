@@ -5,11 +5,7 @@ import { Component, OnInit, Input } from '@angular/core';
   templateUrl: './endereco-apresentacao.component.html',
   styleUrls: ['./endereco-apresentacao.component.scss']
 })
-export class EnderecoApresentacaoComponent implements OnInit {
+export class EnderecoApresentacaoComponent {
   @Input() public endereco: string;
   @Input() public regiao: string;
-
-  constructor() {}
-
-  ngOnInit(): void {}
 }

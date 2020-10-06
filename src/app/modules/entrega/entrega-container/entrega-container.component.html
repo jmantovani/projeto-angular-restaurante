@@ -4,7 +4,8 @@
       <!-- Conteudo ng-content -->
       <app-telefone-apresentacao [telefone]="card.telefone">
         <!-- Conteudo ng-content -->
-        <span class="entrega-container__descricao">| Valor de entrega: <span class="valor">{{card.valor_entrega | currency:'BRL':true }}</span> </span>
+        <span class="entrega-container__descricao">|{{'TEXTO.VALOR_ENTREGA' | translate}}<span
+            class="valor">{{card.valor_entrega | currency:'BRL':true }}</span> </span>
         <!--Fim conteudo ng-content -->
       </app-telefone-apresentacao>
 

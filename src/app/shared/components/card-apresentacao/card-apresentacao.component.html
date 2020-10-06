@@ -11,7 +11,7 @@
         </span>
         <div>
           <h1>{{card.nome}}</h1>
-          <p>Culinária: <span>{{card.culinaria}}</span></p>
+          <p>{{'TEXTO.CULINARIA' | translate}}<span>{{card.culinaria}}</span></p>
         </div>
         <button (click)="cardSelecionado(card)">
           <span class="material-icons icon-favoritos"
@@ -29,7 +29,7 @@
   <div class="card">
 
     <div class="card__sem-dados">
-      <p> Informação indisponível :(</p>
+      <p>{{'INFORMACAO_INDISPONIVEL' | translate}}</p>
     </div>
   </div>
 </ng-template>

@@ -1,3 +1,21 @@
 {
-  "TITULO_APP": "Restaurantes"
+  "TITULO.APP": "Restaurantes",
+  "TITULO.FAVORITOS": "Favoritos",
+
+  "TEXTO.VALOR_ENTREGA": " Valor de entrega: ",
+  "TEXTO.CULINARIA": "Culinária: ",
+  "TEXTO.ENDERECO": "Endereço: ",
+  "TEXTO.REGIAO": "Região: ",
+  "TEXTO.TELEFONE": "Telefone: ",
+
+  "HORARIO_FUNCIONAMENTO": "Horário de funcionamento",
+  "HORARIO_FUNCIONAMENTO.DOMINGO": "Domingo: ",
+  "HORARIO_FUNCIONAMENTO.SEGUNDA": "Segunda: ",
+  "HORARIO_FUNCIONAMENTO.TERCA": "Terça: ",
+  "HORARIO_FUNCIONAMENTO.QUARTA": "Quarta: ",
+  "HORARIO_FUNCIONAMENTO.QUINTA": "Quinta: ",
+  "HORARIO_FUNCIONAMENTO.SEXTA": "Sexta: ",
+  "HORARIO_FUNCIONAMENTO.SABADO": "Sabado: ",
+
+  "INFORMACAO_INDISPONIVEL": "Informação indisponível :("
 }

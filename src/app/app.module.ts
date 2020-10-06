@@ -14,6 +14,9 @@ import { CoreModule } from './core/core.module';
 import localePt from '@angular/common/locales/pt';
 import { registerLocaleData } from '@angular/common';
 import { LOCALE_ID } from '@angular/core';
+import {TranslateLoader, TranslateModule} from '@ngx-translate/core';
+import {TranslateHttpLoader} from '@ngx-translate/http-loader';
+import {HttpClient} from '@angular/common/http';
 registerLocaleData(localePt);
 
 @NgModule({
@@ -28,7 +31,15 @@ registerLocaleData(localePt);
     SharedModule,
     CoreModule,
     EntregaModule,
-    RetiradaModule
+    RetiradaModule,
+    HttpClientModule,
+    TranslateModule.forRoot({
+        loader: {
+            provide: TranslateLoader,
+            useFactory: HttpLoaderFactory,
+            deps: [HttpClient]
+        }
+    })
   ],
   exports: [MatExpansionModule],
   providers: [
@@ -40,3 +51,7 @@ registerLocaleData(localePt);
   bootstrap: [AppComponent]
 })
 export class AppModule {}
+
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http);
+}

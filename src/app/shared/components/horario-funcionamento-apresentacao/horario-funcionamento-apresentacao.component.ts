@@ -6,10 +6,6 @@ import { HorarioOperacao } from '../../models/horario-operacao';
   templateUrl: './horario-funcionamento-apresentacao.component.html',
   styleUrls: ['./horario-funcionamento-apresentacao.component.scss']
 })
-export class HorarioFuncionamentoApresentacaoComponent implements OnInit {
+export class HorarioFuncionamentoApresentacaoComponent {
   @Input() public horarioFuncionamento: HorarioOperacao;
-
-  constructor() {}
-
-  ngOnInit(): void {}
 }

@@ -8,7 +8,6 @@ import { Restaurante } from '../../models/restaurante';
 })
 export class FavoritosApresentacaoComponent {
   @Input() public favoritos: Restaurante[];
-  constructor() {}
 
   verificarTipo(tipo) {
     return tipo === 'entrega' ? true : false;

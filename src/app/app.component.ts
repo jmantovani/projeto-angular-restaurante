@@ -2,19 +2,25 @@ import { Component, ViewChild, OnChanges, OnInit } from '@angular/core';
 import { Restaurante } from './shared/models/restaurante';
 import { RetiradaContainerComponent } from './modules/retirada/retirada-container/retirada-container.component';
 import { FavoritoService } from './shared/services/favorito.service';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit, OnChanges {
-  constructor(private favoritoService: FavoritoService) {}
-  public favoritos;
+  constructor(
+    private favoritoService: FavoritoService,
+    private translate: TranslateService
+  ) {
+    translate.setDefaultLang('pt');
+  }
 
+  public favoritos;
   public navLinks = [
     { path: '/entrega', label: 'Entrega' },
-    { path: '/retirada', label: 'Retirada' }
+    { path: '/retirada', label: 'Retirada' },
   ];
 
   ngOnChanges(): void {}
@@ -30,12 +36,12 @@ export class AppComponent implements OnInit, OnChanges {
 
   private buscarFavoritos() {
     this.favoritoService.getFavoritos().subscribe({
-      next: data => {
+      next: (data) => {
         this.favoritos = data;
         console.log(this.favoritos);
       },
       error: () => {},
-      complete: () => {}
+      complete: () => {},
     });
   }
 }

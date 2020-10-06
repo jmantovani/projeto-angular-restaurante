@@ -7,23 +7,20 @@ import { Restaurante } from '../../models/restaurante';
   styleUrls: ['./card-apresentacao.component.scss']
 })
 export class CardApresentacaoComponent implements OnInit {
-  @Input() public icone;
+  @Input() public icone: string;
   @Input() public card: Restaurante;
   @Output() emitirCardSelecionado = new EventEmitter<Restaurante>();
 
-  public contemDados = true;
-  public panelOpenState = false;
-
-  constructor() {}
+  public contemDados: boolean = true;
+  public panelOpenState: boolean = false;
 
   ngOnInit(): void {
     if (!this.card) {
       this.contemDados = false;
     }
-
   }
 
-  public cardSelecionado(card: Restaurante) {
+  public cardSelecionado(card: Restaurante): void {
     if (card.selecionado === true) {
       card.selecionado = false;
     } else {
